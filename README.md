@@ -1,1 +1,2 @@
-# ws_front
+# FpDual2022JaxRsClient
+A Jax Rs Client based in Jersey

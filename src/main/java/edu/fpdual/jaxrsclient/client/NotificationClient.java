@@ -13,7 +13,7 @@ public class NotificationClient {
 
     public NotificationClient() {
         Client client = ClientBuilder.newClient();
-        this.webTarget = client.target("http://localhost:8080/ws/myresource");
+        this.webTarget = client.target("http://localhost:8080/ws/webapi");
     }
 
     public Notification getNotification(String id) {

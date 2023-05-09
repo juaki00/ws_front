@@ -1,0 +1,14 @@
+edu\fpdual\client\servlet\nuevoUsuarioServletPre.class
+edu\fpdual\client\servlet\ServletLogin.class
+edu\fpdual\jaxrsclient\client\NotificationClient.class
+edu\fpdual\client\filter\FiltroSesion.class
+edu\fpdual\client\servlet\nuevoUsuarioServlet.class
+edu\fpdual\client\servlet\ServletVolverLogin.class
+edu\fpdual\jaxrsclient\client\dto\Notification.class
+edu\fpdual\client\dto\Usuario.class
+edu\fpdual\jaxrsclient\Main.class
+edu\fpdual\client\services\UserServices$1.class
+edu\fpdual\client\servlet\ServletLogout.class
+edu\fpdual\client\services\UserServices.class
+edu\fpdual\client\dto\Usuario$UsuarioBuilder.class
+edu\fpdual\jaxrsclient\client\dto\Notification$NotificationBuilder.class

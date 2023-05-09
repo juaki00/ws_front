@@ -39,6 +39,11 @@
                     Not registered ?
                 </a>
 
+                <%-- Errores --%>
+                <%if(request.getAttribute("error")!=null){%>
+                <p><%=request.getAttribute("error")%></p>
+                <%}%>
+
             </form>
 
         </div>

@@ -10,10 +10,10 @@ public class Main {
 
     public static void main(String[] args) {
 //        System.out.println(new NotificationClient().ping());
-//        System.out.println(new UserServices().insertUser(new Usuario("bb")));
+        System.out.println(new UserServices().insertUser(new Usuario("bbbbbb","bb","bb","bb","bb","bb")));
         System.out.println(new UserServices().getPass("w"));
         System.out.println(new UserServices().getAllUsers());
-        System.out.println(new UserServices().userFromNick("joaquin123"));
+        System.out.println(new UserServices().userFromNick("bbbbbb"));
 
         System.out.println(new NotificationClient().getNotification("8"));
         System.out.println(new NotificationClient().getNotification("82", ":D"));

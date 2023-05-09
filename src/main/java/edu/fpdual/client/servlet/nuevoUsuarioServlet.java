@@ -48,7 +48,7 @@ public class nuevoUsuarioServlet extends HttpServlet {
                 System.out.println("Usuario insertado");
                 userServices = new UserServices();
                 req.getSession().setAttribute("listaUsuarios", userServices.getAllUsers());
-                resp.sendRedirect("/front/usuarios.jsp");
+                resp.sendRedirect("/front/comun/usuarios.jsp");
             }
 
 

@@ -10,6 +10,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.net.ConnectException;
 import java.sql.SQLException;
 
 @WebServlet(name = "ServletLogin", urlPatterns = {"/servlet-login"})
@@ -47,7 +48,8 @@ public class ServletLogin extends HttpServlet {
                 req.getRequestDispatcher("/login.jsp").forward(req, resp);
             }
         }catch (Exception e){
-            System.out.println(e.getMessage());
+            req.setAttribute("error", "Error al conectarse a la base de datos");
+            req.getRequestDispatcher("/login.jsp").forward(req, resp);
         }
 
     }
